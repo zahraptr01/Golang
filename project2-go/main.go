@@ -67,10 +67,10 @@ import (
 // 	// // Data slice
 // 	// data := []int{5, 6, 7, 9, 15, 10, 3, 5, 6, 7, 8, 4, 8, 2, 1, 4, 9, 15, 27, 10, 1}
 
-// 	// // Ambil elemen dari index 6 sampai 18
+// 	// // Take elements from index 6 to 18
 // 	// result := data[6:19]
 
-// 	// // Tampilkan hasil
+// 	// // Show result
 // 	// fmt.Println("Tampilan nilai dari index 6 sampai 18", result)
 
 // 	// data := []int{5, 6, 7, 9, 15, 10, 3, 5, 6, 7, 8, 4, 8, 2, 1, 4, 9, 15, 27, 10, 1}
@@ -117,13 +117,13 @@ import (
 
 // func main() {
 // 	jumlah := 5
-// 	harga := 100000.0 // harga per barang
+// 	harga := 100000.0
 
 // 	totalBayar := hitungDiskon(jumlah, harga)
 // 	fmt.Printf("Total bayar untuk %d barang adalah Rp%.0f\n", jumlah, totalBayar)
 // }
 
-// Fungsi untuk menghitung total ganjil dan genap
+// Function to calculate odd and even totals
 func hitungGanjilGenap(angka *[]int) (int, int) {
 	totalGanjil := 0
 	totalGenap := 0
