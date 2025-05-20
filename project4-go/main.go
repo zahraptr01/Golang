@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Structure to store student data
+// Define Student struct
 type Student struct {
 	Name     string
 	Exercise float64

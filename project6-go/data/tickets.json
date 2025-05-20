@@ -1,0 +1,17 @@
+[
+    {
+        "destination": "Jakarta",
+        "price": 15000,
+        "stock": 8
+    },
+    {
+        "destination": "Bandung",
+        "price": 12000,
+        "stock": 6
+    },
+    {
+        "destination": "Surabaya",
+        "price": 200000,
+        "stock": 4
+    }
+]
